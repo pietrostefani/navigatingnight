@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Navigating the Night"
+  author: "Dr. Elisabetta Pietrostefani"
+  date: today
+  chapters:
+    - index.qmd
+    - overview.qmd
+    - about.qmd
+
+  page-footer:
+    left: |
+      Navigating the Night by Elisabetta Pietrostefani.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url:  https://pietrostefani.github.io/navigatingnight
+  repo-url: https://github.com/pietrostefani/gds
+  repo-actions: [edit]
+  sharing: [twitter, facebook]
+  cover-image: GKZYDxHW8AAeSu3.jpg
+  cover-image-alt: |
+    Alternative text describing the book cover
+  twitter-card:
+    creator: "@EPietrostefani"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+    - cosmo
+    - r4gds.scss
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
