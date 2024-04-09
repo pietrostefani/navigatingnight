@@ -1,10 +1,8 @@
 # Welcome {.unnumbered}
 
-This is the website for *Navigating the Night*, a workshop at [GISRUK2024](https://2024.gisruk.org//) given by Dr. Elisabetta Pietrostefani from the University of Liverpool, sponsored by the [RGS-IBG Quantitative Methods Research Group (QMRG)](https://qmrg.github.io/). The theme of the GISRUK 2024 is **GIS for public good: data, theory, policy**.
+This is the website for *Navigating the Night*, a workshop at [GISRUK2024](https://2024.gisruk.org//) by Dr. Elisabetta Pietrostefani from the University of Liverpool. This workshops is sponsored by the [RGS-IBG Quantitative Methods Research Group (QMRG)](https://qmrg.github.io/). The theme of the GISRUK 2024 is **GIS for public good: data, theory, policy**.
 
-
-This workshop introduces students to *raster* data focusing on *night lights*. Night time satellite images show luminosity - i.e. the brightness of a place at night. The idea is that luminosity correlates strongly with economic activity and can be especially useful in data poor contexts where other economic data is not collected.
-
+The session introduces students to *raster* data focusing on *night lights*. Night time satellite images show luminosity - i.e. the brightness of a place at night. The idea is that luminosity correlates strongly with economic activity and can be especially useful in data poor contexts where other economic data is not collected.
 
 The website is **free to use** and is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). A compilation of this web course is hosted as a GitHub repository that you can access:
 

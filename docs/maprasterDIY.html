@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./mapraster_code.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./mapnight2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -136,26 +137,43 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./nightlights.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Night Lights</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./preparing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Setting up for the workshop</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./nightlights.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Night Lights</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mapraster_code.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lab</span></a>
+  <a href="./mapnight1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 1</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mapnight2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./maprasterDIY.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Do-It-Yourself</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
@@ -169,11 +187,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#option-1" id="toc-option-1" class="nav-link active" data-scroll-target="#option-1">Option 1</a></li>
-  <li><a href="#option-2" id="toc-option-2" class="nav-link" data-scroll-target="#option-2">Option 2</a>
-  <ul class="collapse">
-  <li><a href="#following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" id="toc-following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" class="nav-link" data-scroll-target="#following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r">Following the Tutorial Downloading and processing Black Marble nightlights data in R</a></li>
-  <li><a href="#tutorial-how-to-increase-the-resolution-of-nightlights-data" id="toc-tutorial-how-to-increase-the-resolution-of-nightlights-data" class="nav-link" data-scroll-target="#tutorial-how-to-increase-the-resolution-of-nightlights-data">Tutorial: How to increase the resolution of nightlights data</a></li>
-  </ul></li>
+  <li><a href="#option-2" id="toc-option-2" class="nav-link" data-scroll-target="#option-2">Option 2</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pietrostefani/gds/edit/main/maprasterDIY.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
@@ -197,6 +211,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>It’s now time for you to play around and experimen.t</p>
 <section id="option-1" class="level2">
 <h2 class="anchored" data-anchor-id="option-1">Option 1</h2>
 <p>Working on a time-series representation of the evolution of Nights Lights in a <strong>country of your choice</strong>. As in the lab, the data can be found <a href="https://www.ngdc.noaa.gov/eog/data/web_data/v4composites/">here</a>.</p>
@@ -204,26 +219,36 @@ ul.task-list li input[type="checkbox"] {
 <li>Process the data and make a map with at least two years of night lights data.</li>
 <li>Think about the story the data is telling you.
 <ul>
-<li><p>How have night lights evolved over time in your country of choice? Remember this will mean different things for different countries.</p></li>
-<li><p>What choices have you made in terms of bins, colours, zoom level to tell your story?</p></li>
+<li>How have night lights evolved over time in your country of choice? Remember this will mean different things for different countries.</li>
+<li>What choices have you made in terms of bins, colours, zoom level to tell your story?</li>
 </ul></li>
+<li>Try <code>gganimate</code>: a package that allows you to turn your ggplot2 graphs into gifs.</li>
 </ol>
+<p>Some inspiration below.</p>
 <iframe src="https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
 </iframe>
 </section>
 <section id="option-2" class="level2">
 <h2 class="anchored" data-anchor-id="option-2">Option 2</h2>
-<p>Introducing <a href="https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the">NASA’s Black Marble dataset</a></p>
-<section id="following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" class="level3">
-<h3 class="anchored" data-anchor-id="following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r">Following the Tutorial Downloading and processing Black Marble nightlights data in R</h3>
-<p>https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing</p>
-</section>
-<section id="tutorial-how-to-increase-the-resolution-of-nightlights-data" class="level3">
-<h3 class="anchored" data-anchor-id="tutorial-how-to-increase-the-resolution-of-nightlights-data">Tutorial: How to increase the resolution of nightlights data</h3>
-<p>The exact steps and codebase to increase nightlights from ~500m to ~30m resolution</p>
+<p>Have a look at how to exploit NASA’s Black Marble dataset. We do not have enough time to process it in this workshop but there are some excellent tutorial out there showing you how.</p>
+<ol type="1">
+<li>Have a look at this excellent <a href="https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the">article</a> present the data and how you can access it.</li>
+<li>Follow the <a href="https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing">tutorial</a> Downloading and processing Black Marble nightlights data in R to discover:
+<ul>
+<li><p>How to process Black Marble nightlights imagery in R; and</p></li>
+<li><p>How to process Colorado School of Mines’s nightlights imagery from Google Earth Engine (also using R).</p></li>
+</ul></li>
+</ol>
+<p>This involves learning about more packages such as <code>blackmarbler</code> and <code>rgee</code>.</p>
+<ol start="3" type="1">
+<li>You can then even learn how to to <a href="https://yohaniddawela.substack.com/p/tutorial-how-to-increase-the-resolution">increase nightlights</a> from 500m to 30m resolution.</li>
+</ol>
+<div data-align="center">
+<iframe width="700px" height="500px" src="img/black_marble_processing.gif">
+</iframe>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -462,11 +487,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./mapraster_code.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lab</span>
+      <a href="./mapnight2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lab 2</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -1,5 +1,6 @@
 # Do-It-Yourself {#sec-map-raster-DIY .unnumbered}
 
+It's now time for you to play around and experimen.t
 
 ## Option 1
 
@@ -8,19 +9,31 @@ Working on a time-series representation of the evolution of Nights Lights in a *
 1.  Process the data and make a map with at least two years of night lights data.
 2.  Think about the story the data is telling you.
     -   How have night lights evolved over time in your country of choice? Remember this will mean different things for different countries.
-
     -   What choices have you made in terms of bins, colours, zoom level to tell your story?
+3.  Try `gganimate`: a package that allows you to turn your ggplot2 graphs into gifs.
 
-<iframe src="https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+Some inspiration below.
+
+<iframe src="https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
 
 ## Option 2
 
-Introducing [NASA's Black Marble dataset](https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the)
+Have a look at how to exploit NASA's Black Marble dataset. We do not have enough time to process it in this workshop but there are some excellent tutorial out there showing you how.
 
-### Following the Tutorial Downloading and processing Black Marble nightlights data in R
+1.  Have a look at this excellent [article](https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the) present the data and how you can access it.
+2.  Follow the [tutorial](https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing) Downloading and processing Black Marble nightlights data in R to discover:
+    -   How to process Black Marble nightlights imagery in R; and
 
-https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing
+    -   How to process Colorado School of Mines’s nightlights imagery from Google Earth Engine (also using R).
 
-### Tutorial: How to increase the resolution of nightlights data
+This involves learning about more packages such as `blackmarbler` and `rgee`.
 
-The exact steps and codebase to increase nightlights from ~500m to ~30m resolution
+3. You can then even learn how to to [increase nightlights](https://yohaniddawela.substack.com/p/tutorial-how-to-increase-the-resolution) from 500m to 30m resolution.
+
+<div align="center">
+<iframe width= 700px height= 500px src="img/black_marble_processing.gif"></iframe>
+</div>
+
+
