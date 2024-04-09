@@ -9,8 +9,11 @@ book:
   chapters:
     - index.qmd
     - mapraster.qmd
-    - nightlights.qmd
-    - mapraster_code.qmd
+    - preparing.qmd
+    - part: nightlights.qmd
+      chapters:
+        - mapnight1.qmd
+        - mapnight2.qmd
     - maprasterDIY.qmd
     - references.qmd
 

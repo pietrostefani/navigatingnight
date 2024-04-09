@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Navigating the Night - Night Lights</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Preparing.html" rel="next">
+<link href="./mapraster.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta name="twitter:title" content="Navigating the Night - Night Lights">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://pietrostefani.github.io/navigatingnight/img/economicgrowth_space.png">
+<meta name="twitter:creator" content="@EPietrostefani">
+<meta name="twitter:image-height" content="696">
+<meta name="twitter:image-width" content="880">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./nightlights.html">Night Lights</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Navigating the Night</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/pietrostefani/gds" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mapraster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Raster</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./nightlights.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Night Lights</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preparing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting up for the workshop</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mapraster_code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mapraster_code_more.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./maprasterDIY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Do-It-Yourself</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#using-nightlights-to-measure-economic-activity" id="toc-using-nightlights-to-measure-economic-activity" class="nav-link active" data-scroll-target="#using-nightlights-to-measure-economic-activity">Using nightlights to measure economic activity</a></li>
+  <li><a href="#what-economic-activities-do-nightlights-capture" id="toc-what-economic-activities-do-nightlights-capture" class="nav-link" data-scroll-target="#what-economic-activities-do-nightlights-capture">What economic activities do nightlights capture?</a></li>
+  <li><a href="#not-all-satellite-data-is-the-same" id="toc-not-all-satellite-data-is-the-same" class="nav-link" data-scroll-target="#not-all-satellite-data-is-the-same">Not all satellite data is the same</a>
+  <ul class="collapse">
+  <li><a href="#dmsp-ols-low-resolution-data" id="toc-dmsp-ols-low-resolution-data" class="nav-link" data-scroll-target="#dmsp-ols-low-resolution-data">1. DMSP-OLS (low-resolution data)</a></li>
+  <li><a href="#viirs-provided-by-colorado-school-of-mines" id="toc-viirs-provided-by-colorado-school-of-mines" class="nav-link" data-scroll-target="#viirs-provided-by-colorado-school-of-mines">2. VIIRS (provided by Colorado School of Mines)</a></li>
+  <li><a href="#viirs-black-marble" id="toc-viirs-black-marble" class="nav-link" data-scroll-target="#viirs-black-marble">3. VIIRS Black Marble</a></li>
+  </ul></li>
+  <li><a href="#further-readings" id="toc-further-readings" class="nav-link" data-scroll-target="#further-readings">Further readings</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pietrostefani/gds/edit/main/nightlights.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-nightlights" class="quarto-section-identifier">Night Lights</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Nightlights are often used but not always understood. Let’s change that here.</p>
+<p>This section is inspired from Yohan Iddawela’s excellent overview of <a href="https://yohaniddawela.substack.com/p/some-surprising-facts-about-nightlights">nightlights</a>.</p>
+<section id="using-nightlights-to-measure-economic-activity" class="level2">
+<h2 class="anchored" data-anchor-id="using-nightlights-to-measure-economic-activity">Using nightlights to measure economic activity</h2>
+<p>There were a few studies in the 1990s and 2000s that looked at using nighttime luminosity as a proxy for economic activity such as Elvidge et al.&nbsp;(1997), and Doll et al.&nbsp;(2006).</p>
+<p>A paper published in the prestigious economics journal, the American Economic Review (Henderson et al., 2012), marked turning point.</p>
+<p>It argued that growth rates of nightlights were useful in two scenarios:</p>
+<ul>
+<li><p>When countries lacked high-quality official GDP estimates;</p></li>
+<li><p>Where official sub-national GDP was unavailable</p></li>
+</ul>
+<p>They also argued that luminosity data is available immediately, as opposed to official GDP data which can have delayed publication of a few months.</p>
+<p>Nightlights are now one of the standard method for calculating subnational economic activity.</p>
+<p>In light of the widespread use of nightlights, numerous studies neglect to discuss the specifics of what they capture, as well as their advantages and disadvantages.</p>
+<p>As a result, let us examine a few of the most important concerns.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/economicgrowth_space.png" style="width:60.0%;height:60.0%" class="figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="what-economic-activities-do-nightlights-capture" class="level2">
+<h2 class="anchored" data-anchor-id="what-economic-activities-do-nightlights-capture">What economic activities do nightlights capture?</h2>
+<p>It’s quite vague to say that nightlights captures ‘economic activity’. What exactly do we mean by economic activity?</p>
+<p>In the Henderson et al.&nbsp;paper, they use nightlights as a proxy for real GDP growth.</p>
+<p>But taking a step back, GDP is typically measured in three ways:</p>
+<ol type="1">
+<li><p>Adding up all of the consumption in an economy (this includes investments and government spending)</p></li>
+<li><p>Adding up all of the income earned in an economy</p></li>
+<li><p>Adding up the value of all things produced in an economy</p></li>
+</ol>
+<p>On aggregate for an entire country, all of these things should equal one another.</p>
+<p>However, we need to be careful about double counting. For example, combining production values with income and consumption figures without accounting for overlaps could distort things.</p>
+<p><strong>The bottom line</strong>: nightlights can capture certain elements of consumption and production.</p>
+</section>
+<section id="not-all-satellite-data-is-the-same" class="level2">
+<h2 class="anchored" data-anchor-id="not-all-satellite-data-is-the-same">Not all satellite data is the same</h2>
+<p>There are actually three different sources of free night time data:</p>
+<section id="dmsp-ols-low-resolution-data" class="level3">
+<h3 class="anchored" data-anchor-id="dmsp-ols-low-resolution-data">1. DMSP-OLS (low-resolution data)</h3>
+<p>It is:</p>
+<ul>
+<li>Available from 1992-2013,</li>
+<li>Low resolution (each pixel is ~1km x 1km),</li>
+<li>The most widely used luminosity dataset in spatial economics</li>
+</ul>
+<p>It also faces an issue of ‘overglow’. This is where light from one region is picked up by another region.</p>
+</section>
+<section id="viirs-provided-by-colorado-school-of-mines" class="level3">
+<h3 class="anchored" data-anchor-id="viirs-provided-by-colorado-school-of-mines">2. VIIRS (provided by Colorado School of Mines)</h3>
+<p>Source 2: VIIRS data (provided by <a href="https://eogdata.mines.edu/products/vnl/">Colorado School of Mines</a> and <a href="https://ngdc.noaa.gov/eog/download.html">NOAA</a>)</p>
+<p>This is:</p>
+<ul>
+<li>Available from 2012-present</li>
+<li>Doesn’t experience overglow</li>
+<li>High resolution (each pixel is ~500m x 500m)</li>
+<li>An off-the-shelf product and has been corrected for cloud cover and stray light,</li>
+</ul>
+<p>However, this data has ongoing problems with snowfall.Snow reflects light. And during Jan and Feb 2021 (the middle of the pandemic), European countries were reporting record-levels of luminosity. This didn’t square with reality. Instead, this was caused by snow. We will still be using this as our primary data for this workshop. Colorado School of Mines’s (CSM) VIIRS data is the main dataset used in most studies (of those that use high resolution luminosity data).</p>
+</section>
+<section id="viirs-black-marble" class="level3">
+<h3 class="anchored" data-anchor-id="viirs-black-marble">3. VIIRS Black Marble</h3>
+<p><a href="https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html">NASA’s Black Marble</a> is quite recent—it was only released in 2021.This dataset is more ‘raw’. It provides the tools for pixel-level processing. And it claims to do things differently by providing ‘cleaner’ luminosity images.</p>
+<p>‘Clean’ luminosity images sounds simple in practice. It’s essentially luminosity data that’s free from sources of noise. But in reality, this is incredibly hard to do.</p>
+<p>In order to provide ‘clean’ luminosity images we need to account for a few things:</p>
+<ul>
+<li><p><em>Surface-reflection</em>: luminosity doesn’t reflect off the Earth’s surface (e.g.&nbsp;light bouncing off snow).</p></li>
+<li><p><em>Atmospheric-reflection</em>: luminosity doesn’t reflect off the Earth’s atmosphere (e.g.&nbsp;light bouncing of aerosols or clouds).</p></li>
+<li><p><em>Stray light</em> (which comes from the sun directly into the Satellite’s instruments) doesn’t contaminate the images.</p></li>
+<li><p><em>Other issues</em>: such as vegetation obscuring satellite images, the satellite’s angle from the Earth changing luminosity scores, or other outliers like lightning.</p></li>
+</ul>
+<p>I find this GIF from NASA to be pretty helpful in understanding all of these things:</p>
+<p>With NASA’s Black Marble you’re able to determine:</p>
+<ul>
+<li>The angle of the satellite</li>
+<li>Which pixels are obscure by clouds</li>
+<li>snowfall &amp; foliage adjusted estimates</li>
+</ul>
+<p>This is important because:</p>
+<ul>
+<li>Snowfall and water reflects light</li>
+<li>Foliage and clouds obscures the view of satellites</li>
+<li>Satellite angles impacts its perception of luminosity</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./img/GH_DEthWQAASHSL.jpg" style="width:50.0%;height:100.0%" class="figure-img"></p>
+</figure>
+</div>
+<p>Some important things to note:</p>
+<ul>
+<li>Pixel-level cleaning of data is computationally intensive.</li>
+<li>It requires cloud computing to do this at scale.</li>
+<li>However, once cleaned, NASA’s luminosity estimates are less volatile than Colorado School of Mine’s VIIRs estimates.</li>
+<li>Due to stray light, Black Marble has many missing values for northern countries from Jun-Aug.</li>
+</ul>
+</section>
+</section>
+<section id="further-readings" class="level2">
+<h2 class="anchored" data-anchor-id="further-readings">Further readings</h2>
+<ul>
+<li><p><a href="https://github.com/JakobMie/nightlightstats?tab=readme-ov-file">Night Light Stats</a></p></li>
+<li><p>Henderson, J. Vernon, Adam Storeygard, and David N. Weil. 2012. <a href="https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994">Measuring Economic Growth from Outer Space</a> American Economic Review, 102 (2): 994-1028. <a href="https://www.openicpsr.org/openicpsr/project/112518/version/V1/view">Replication data</a></p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./mapraster.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Raster</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Preparing.html" class="pagination-link">
+        <span class="nav-page-text">Setting up for the workshop</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Navigating the Night by Elisabetta Pietrostefani.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This book was built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>

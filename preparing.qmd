@@ -1,0 +1,84 @@
+# Setting up for the workshop {.unnumbered}
+
+## R Basics
+
+
+To run the analysis and reproduce the code in R, you need the following software:
+
+-   R-4.2.2
+-   RStudio 2022.12.0-353
+-   The list of libraries in the next section
+
+To install and update:
+
+-   R, download the appropriate version from [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org)
+-   RStudio, download the appropriate version from [Posit](https://posit.co/download/rstudio-desktop/)
+
+To check your version of:
+
+-   R and libraries run `sessionInfo()`
+-   RStudio click `help` on the menu bar and then `About`
+-   Quarto check the `version` file in the quarto folder on your computer.
+
+
+### Starting a session
+
+Upon startup, RStudio will look something like this. Note: the **Pane Layout** and **Appearance** settings can be altered e.g. on Mac OS by clicking RStudio\>Preferences\>Appearance and RStudio\>Preferences\>Pane Layout. I personally like to have my Console in the top right corner and Environment in the bottom left and keep the Source and Environment panes wider than Console and Files for easier readability. Default settings will probably have the Console in the bottom left and Environment in the top right. You will also have a standard white background; but you can chose specific [themes](https://quarto.org/docs/output-formats/html-themes.html).
+
+## File organization
+
+You can download the data and code for this workshop [here](https://github.com/pietrostefani/navigatingnight).
+
+The data should be set up like in the screenshot below. You will have to download some of the data from websites as you go along.
+
+![](./img/structure.png){fig-align="center" width="80%"}
+
+## Installing Packages
+
+```{r message=FALSE, warning=FALSE}
+# Provides various utility functions for R programming.
+library(R.utils)
+# For data manipulation and transformation.
+library(dplyr)
+# Spatial data
+library(sf)
+# Popular data visualization package in R.  
+library(ggplot2)
+# For creating thematic maps 
+library(tmap)
+# Color palettes suitable for data visualization, especially for those with color vision deficiencies.
+library(viridis)
+# A collection of color palettes for data visualization.
+library(RColorBrewer)
+# For working with raster data, such as gridded spatial data like satellite imagery or elevation data.
+library(raster)
+# An alternative to the 'raster' package and is used for working with large raster datasets efficiently.
+library(terra)
+# Tools for extracting data from raster layers at exact locations, often used in spatial analysis.
+library(exactextractr)
+# Common methods of the tidyverse packages for objects created with the {terra} package: SpatRaster and SpatVector
+library(tidyterra)
+# Querying Open Street Map data
+library(osmdata)
+```
+
+::: callout-important
+
+Important packages for raster data in R.
+
+- `terra`: the best way of loading and processing raster data.
+- `sf`: the go-to package for dealing with polygons, lines and spatial points.
+- `exactextractor`: the quickest, easiest and most accurate way to calculate zonal statistics. It’s an R wrapper for the `exactextract` package (written in C++). It’s more accurate than ArcGIS, QGIS, and Python’s rasterstats package in calculating zonal stats.
+- `tmap`: quick and easy, and its “view” mode allows you to create interactive maps that are built on leaflet.
+- `ggplot`: the best package for building beautiful maps. Allows for more customisation than `tmap`.
+
+There are also the following packages which we will not be using in this workshop:
+
+- `rgeedim`: provides the easiest way to download data directly from Google Earth Engine as GeoTiffs. 
+- `rgee`: an R wrapper for Google Earth Engine, so you can run GEE commands in R
+- `gganimate`: a package that allows you to turn your ggplot2 graphs into gifs.
+- `rayshader`: create animated 3D graphs and maps in R.
+- `countrycode`: a useful package to automatically generate ISO codes from country names (and vice versa), assign continents to countries.
+- `doparallel`: my go-to package for parallel processing.
+
+:::
