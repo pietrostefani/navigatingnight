@@ -1,4 +1,4 @@
-# Raster data {#sec-map-raster .unnumbered}
+# Raster {#sec-map-raster .unnumbered}
 
 This section is all about Raster data, it's different types and some of its uses. 
 

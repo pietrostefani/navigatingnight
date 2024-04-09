@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Navigating the Night - Night Lights</title>
+<title>Navigating the Night - Do-It-Yourself</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./mapnight1.html" rel="next">
-<link href="./preparing.html" rel="prev">
+<link href="./mapraster_code.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,13 +62,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Navigating the Night - Night Lights">
+<meta name="twitter:title" content="Navigating the Night - Do-It-Yourself">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://pietrostefani.github.io/navigatingnight/img/economicgrowth_space.png">
 <meta name="twitter:creator" content="@EPietrostefani">
-<meta name="twitter:image-height" content="696">
-<meta name="twitter:image-width" content="880">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar floating">
@@ -81,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./nightlights.html">Night Lights</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./maprasterDIY.html">Do-It-Yourself</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -140,43 +136,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./nightlights.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Night Lights</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./preparing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Setting up for the workshop</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./nightlights.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Night Lights</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./mapnight1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lab 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./mapnight2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lab 2</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./maprasterDIY.html" class="sidebar-item-text sidebar-link">
+  <a href="./mapraster_code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./maprasterDIY.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Do-It-Yourself</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
@@ -189,24 +168,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#using-nightlights-to-measure-economic-activity" id="toc-using-nightlights-to-measure-economic-activity" class="nav-link active" data-scroll-target="#using-nightlights-to-measure-economic-activity">Using nightlights to measure economic activity</a></li>
-  <li><a href="#what-economic-activities-do-nightlights-capture" id="toc-what-economic-activities-do-nightlights-capture" class="nav-link" data-scroll-target="#what-economic-activities-do-nightlights-capture">What economic activities do nightlights capture?</a></li>
-  <li><a href="#not-all-satellite-data-is-the-same" id="toc-not-all-satellite-data-is-the-same" class="nav-link" data-scroll-target="#not-all-satellite-data-is-the-same">Not all satellite data is the same</a>
+  <li><a href="#option-1" id="toc-option-1" class="nav-link active" data-scroll-target="#option-1">Option 1</a></li>
+  <li><a href="#option-2" id="toc-option-2" class="nav-link" data-scroll-target="#option-2">Option 2</a>
   <ul class="collapse">
-  <li><a href="#dmsp-ols-low-resolution-data" id="toc-dmsp-ols-low-resolution-data" class="nav-link" data-scroll-target="#dmsp-ols-low-resolution-data">1. DMSP-OLS (low-resolution data)</a></li>
-  <li><a href="#viirs-provided-by-colorado-school-of-mines" id="toc-viirs-provided-by-colorado-school-of-mines" class="nav-link" data-scroll-target="#viirs-provided-by-colorado-school-of-mines">2. VIIRS (provided by Colorado School of Mines)</a></li>
-  <li><a href="#viirs-black-marble" id="toc-viirs-black-marble" class="nav-link" data-scroll-target="#viirs-black-marble">3. VIIRS Black Marble</a></li>
+  <li><a href="#following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" id="toc-following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" class="nav-link" data-scroll-target="#following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r">Following the Tutorial Downloading and processing Black Marble nightlights data in R</a></li>
+  <li><a href="#tutorial-how-to-increase-the-resolution-of-nightlights-data" id="toc-tutorial-how-to-increase-the-resolution-of-nightlights-data" class="nav-link" data-scroll-target="#tutorial-how-to-increase-the-resolution-of-nightlights-data">Tutorial: How to increase the resolution of nightlights data</a></li>
   </ul></li>
-  <li><a href="#further-readings" id="toc-further-readings" class="nav-link" data-scroll-target="#further-readings">Further readings</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pietrostefani/gds/edit/main/nightlights.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pietrostefani/gds/edit/main/maprasterDIY.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-nightlights" class="quarto-section-identifier">Night Lights</span></h1>
+<h1 class="title"><span id="sec-map-raster-DIY" class="quarto-section-identifier">Do-It-Yourself</span></h1>
 </div>
 
 
@@ -221,112 +197,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Nightlights are often used but not always understood. Let’s change that here.</p>
-<p>This section is inspired from Yohan Iddawela’s excellent overview of <a href="https://yohaniddawela.substack.com/p/some-surprising-facts-about-nightlights">nightlights</a>.</p>
-<section id="using-nightlights-to-measure-economic-activity" class="level2">
-<h2 class="anchored" data-anchor-id="using-nightlights-to-measure-economic-activity">Using nightlights to measure economic activity</h2>
-<p>There were a few studies in the 1990s and 2000s that looked at using nighttime luminosity as a proxy for economic activity such as Elvidge et al.&nbsp;(1997), and Doll et al.&nbsp;(2006).</p>
-<p>A paper published in the prestigious economics journal, the American Economic Review (Henderson et al., 2012), marked turning point.</p>
-<p>It argued that growth rates of nightlights were useful in two scenarios:</p>
-<ul>
-<li><p>When countries lacked high-quality official GDP estimates;</p></li>
-<li><p>Where official sub-national GDP was unavailable</p></li>
-</ul>
-<p>They also argued that luminosity data is available immediately, as opposed to official GDP data which can have delayed publication of a few months.</p>
-<p>Nightlights are now one of the standard method for calculating subnational economic activity.</p>
-<p>In light of the widespread use of nightlights, numerous studies neglect to discuss the specifics of what they capture, as well as their advantages and disadvantages.</p>
-<p>As a result, let us examine a few of the most important concerns.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./img/economicgrowth_space.png" style="width:60.0%;height:60.0%" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="what-economic-activities-do-nightlights-capture" class="level2">
-<h2 class="anchored" data-anchor-id="what-economic-activities-do-nightlights-capture">What economic activities do nightlights capture?</h2>
-<p>It’s quite vague to say that nightlights captures ‘economic activity’. What exactly do we mean by economic activity?</p>
-<p>In the Henderson et al.&nbsp;paper, they use nightlights as a proxy for real GDP growth.</p>
-<p>But taking a step back, GDP is typically measured in three ways:</p>
+<section id="option-1" class="level2">
+<h2 class="anchored" data-anchor-id="option-1">Option 1</h2>
+<p>Working on a time-series representation of the evolution of Nights Lights in a <strong>country of your choice</strong>. As in the lab, the data can be found <a href="https://www.ngdc.noaa.gov/eog/data/web_data/v4composites/">here</a>.</p>
 <ol type="1">
-<li><p>Adding up all of the consumption in an economy (this includes investments and government spending)</p></li>
-<li><p>Adding up all of the income earned in an economy</p></li>
-<li><p>Adding up the value of all things produced in an economy</p></li>
+<li>Process the data and make a map with at least two years of night lights data.</li>
+<li>Think about the story the data is telling you.
+<ul>
+<li><p>How have night lights evolved over time in your country of choice? Remember this will mean different things for different countries.</p></li>
+<li><p>What choices have you made in terms of bins, colours, zoom level to tell your story?</p></li>
+</ul></li>
 </ol>
-<p>On aggregate for an entire country, all of these things should equal one another.</p>
-<p>However, we need to be careful about double counting. For example, combining production values with income and consumption figures without accounting for overlaps could distort things.</p>
-<p><strong>The bottom line</strong>: nightlights can capture certain elements of consumption and production.</p>
+<iframe src="https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+</iframe>
 </section>
-<section id="not-all-satellite-data-is-the-same" class="level2">
-<h2 class="anchored" data-anchor-id="not-all-satellite-data-is-the-same">Not all satellite data is the same</h2>
-<p>There are actually three different sources of free night time data:</p>
-<section id="dmsp-ols-low-resolution-data" class="level3">
-<h3 class="anchored" data-anchor-id="dmsp-ols-low-resolution-data">1. DMSP-OLS (low-resolution data)</h3>
-<p>It is:</p>
-<ul>
-<li>Available from 1992-2013,</li>
-<li>Low resolution (each pixel is ~1km x 1km),</li>
-<li>The most widely used luminosity dataset in spatial economics</li>
-</ul>
-<p>It also faces an issue of ‘overglow’. This is where light from one region is picked up by another region.</p>
+<section id="option-2" class="level2">
+<h2 class="anchored" data-anchor-id="option-2">Option 2</h2>
+<p>Introducing <a href="https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the">NASA’s Black Marble dataset</a></p>
+<section id="following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="following-the-tutorial-downloading-and-processing-black-marble-nightlights-data-in-r">Following the Tutorial Downloading and processing Black Marble nightlights data in R</h3>
+<p>https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing</p>
 </section>
-<section id="viirs-provided-by-colorado-school-of-mines" class="level3">
-<h3 class="anchored" data-anchor-id="viirs-provided-by-colorado-school-of-mines">2. VIIRS (provided by Colorado School of Mines)</h3>
-<p>Source 2: VIIRS data (provided by <a href="https://eogdata.mines.edu/products/vnl/">Colorado School of Mines</a> and <a href="https://ngdc.noaa.gov/eog/download.html">NOAA</a>)</p>
-<p>This is:</p>
-<ul>
-<li>Available from 2012-present</li>
-<li>Doesn’t experience overglow</li>
-<li>High resolution (each pixel is ~500m x 500m)</li>
-<li>An off-the-shelf product and has been corrected for cloud cover and stray light,</li>
-</ul>
-<p>However, this data has ongoing problems with snowfall.Snow reflects light. And during Jan and Feb 2021 (the middle of the pandemic), European countries were reporting record-levels of luminosity. This didn’t square with reality. Instead, this was caused by snow. We will still be using this as our primary data for this workshop. Colorado School of Mines’s (CSM) VIIRS data is the main dataset used in most studies (of those that use high resolution luminosity data).</p>
-</section>
-<section id="viirs-black-marble" class="level3">
-<h3 class="anchored" data-anchor-id="viirs-black-marble">3. VIIRS Black Marble</h3>
-<p><a href="https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html">NASA’s Black Marble</a> is quite recent—it was only released in 2021.This dataset is more ‘raw’. It provides the tools for pixel-level processing. And it claims to do things differently by providing ‘cleaner’ luminosity images.</p>
-<p>‘Clean’ luminosity images sounds simple in practice. It’s essentially luminosity data that’s free from sources of noise. But in reality, this is incredibly hard to do.</p>
-<p>In order to provide ‘clean’ luminosity images we need to account for a few things:</p>
-<ul>
-<li><p><em>Surface-reflection</em>: luminosity doesn’t reflect off the Earth’s surface (e.g.&nbsp;light bouncing off snow).</p></li>
-<li><p><em>Atmospheric-reflection</em>: luminosity doesn’t reflect off the Earth’s atmosphere (e.g.&nbsp;light bouncing of aerosols or clouds).</p></li>
-<li><p><em>Stray light</em> (which comes from the sun directly into the Satellite’s instruments) doesn’t contaminate the images.</p></li>
-<li><p><em>Other issues</em>: such as vegetation obscuring satellite images, the satellite’s angle from the Earth changing luminosity scores, or other outliers like lightning.</p></li>
-</ul>
-<p>I find this GIF from NASA to be pretty helpful in understanding all of these things:</p>
-<p>With NASA’s Black Marble you’re able to determine:</p>
-<ul>
-<li>The angle of the satellite</li>
-<li>Which pixels are obscure by clouds</li>
-<li>snowfall &amp; foliage adjusted estimates</li>
-</ul>
-<p>This is important because:</p>
-<ul>
-<li>Snowfall and water reflects light</li>
-<li>Foliage and clouds obscures the view of satellites</li>
-<li>Satellite angles impacts its perception of luminosity</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./img/GH_DEthWQAASHSL.jpg" style="width:50.0%;height:100.0%" class="figure-img"></p>
-</figure>
-</div>
-<p>Some important things to note:</p>
-<ul>
-<li>Pixel-level cleaning of data is computationally intensive.</li>
-<li>It requires cloud computing to do this at scale.</li>
-<li>However, once cleaned, NASA’s luminosity estimates are less volatile than Colorado School of Mine’s VIIRs estimates.</li>
-<li>Due to stray light, Black Marble has many missing values for northern countries from Jun-Aug.</li>
-</ul>
-</section>
-</section>
-<section id="further-readings" class="level2">
-<h2 class="anchored" data-anchor-id="further-readings">Further readings</h2>
-<ul>
-<li><p><a href="https://github.com/JakobMie/nightlightstats?tab=readme-ov-file">Night Light Stats</a></p></li>
-<li><p>Henderson, J. Vernon, Adam Storeygard, and David N. Weil. 2012. <a href="https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994">Measuring Economic Growth from Outer Space</a> American Economic Review, 102 (2): 994-1028. <a href="https://www.openicpsr.org/openicpsr/project/112518/version/V1/view">Replication data</a></p></li>
-</ul>
+<section id="tutorial-how-to-increase-the-resolution-of-nightlights-data" class="level3">
+<h3 class="anchored" data-anchor-id="tutorial-how-to-increase-the-resolution-of-nightlights-data">Tutorial: How to increase the resolution of nightlights data</h3>
+<p>The exact steps and codebase to increase nightlights from ~500m to ~30m resolution</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -565,14 +462,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./preparing.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Setting up for the workshop</span>
+      <a href="./mapraster_code.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lab</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./mapnight1.html" class="pagination-link">
-        <span class="nav-page-text">Lab 1</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
