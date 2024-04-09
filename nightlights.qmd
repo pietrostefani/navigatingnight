@@ -1,0 +1,18 @@
+# Night Lights data {#sec-nightlights .unnumbered}
+
+This section is all about Raster data, it's different types and some uses for social science. 
+
+## Raster Data
+
+## Some surprising facts about nightlights data
+
+https://yohaniddawela.substack.com/p/some-surprising-facts-about-nightlights
+
+
+## Satellite data for Social Science
+
+Have a look at
+
+-   Jean, Neal, et al. 2016 ["Combining satellite imagery and machine learning to predict poverty."](https://www.science.org/doi/full/10.1126/science.aaf7894?casa_token=vIElPwXK8iwAAAAA%3APEuxEqOASCbCw4EmotD1t4qXr8Vs9heB7p7MM2TcUchvpVHqgeU9LejCOSouutlxkOsOKOmFObLUMg) Science
+
+-   Henderson, J. Vernon, Adam Storeygard, and David N. Weil. 2012. [Measuring Economic Growth from Outer Space](https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994) American Economic Review, 102 (2): 994-1028. [Replication data](https://www.openicpsr.org/openicpsr/project/112518/version/V1/view)

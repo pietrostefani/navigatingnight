@@ -8,8 +8,11 @@ book:
   date: today
   chapters:
     - index.qmd
-    - overview.qmd
-    - about.qmd
+    - mapraster.qmd
+    - nightlights.qmd
+    - mapraster_code.qmd
+    - maprasterDIY.qmd
+    - references.qmd
 
   page-footer:
     left: |
@@ -20,7 +23,7 @@ book:
   repo-url: https://github.com/pietrostefani/gds
   repo-actions: [edit]
   sharing: [twitter, facebook]
-  cover-image: GKZYDxHW8AAeSu3.jpg
+  cover-image: night.png
   cover-image-alt: |
     Alternative text describing the book cover
   twitter-card:
