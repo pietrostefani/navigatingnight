@@ -74,7 +74,7 @@ Important packages for raster data in R.
 
 There are also the following packages which we will not be using in this workshop:
 
-- `rgeedim`: provides the easiest way to download data directly from Google Earth Engine as GeoTiffs. 
+- `rgeedim`: provides the easiest way to download data directly from Google Earth Engine as GeoTiffs.
 - `rgee`: an R wrapper for Google Earth Engine, so you can run GEE commands in R
 - `gganimate`: a package that allows you to turn your ggplot2 graphs into gifs.
 - `rayshader`: create animated 3D graphs and maps in R.
