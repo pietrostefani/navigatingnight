@@ -20,7 +20,7 @@ Some inspiration below.
 
 ## Option 2
 
-Have a look at how to exploit NASA's Black Marble dataset. We do not have enough time to process it in this workshop but there are some excellent tutorial out there showing you how.
+Have a look at how to exploit NASA's Black Marble dataset. We do not have enough time to process it in this workshop but there are some excellent tutorials out there showing you how.
 
 1.  Have a look at this excellent [article](https://yohaniddawela.substack.com/p/not-all-nightlight-datasets-are-the) present the data and how you can access it.
 2.  Follow the [tutorial](https://yohaniddawela.substack.com/p/tutorial-downloading-and-processing) Downloading and processing Black Marble nightlights data in R to discover:
