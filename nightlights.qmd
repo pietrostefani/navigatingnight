@@ -77,7 +77,7 @@ However, this data has ongoing problems with snowfall.Snow reflects light. And d
 
 ### 3. VIIRS Black Marble
 
-[NASA’s Black Marble](https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html) is quite recent—it was only released in 2021.This dataset is more 'raw'. It provides the tools for pixel-level processing. And it claims to do things differently by providing ‘cleaner’ luminosity images.
+[NASA’s Black Marble](https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html) is quite recent—it was only released in 2021. This dataset is more 'raw'. It provides the tools for pixel-level processing. And it claims to do things differently by providing ‘cleaner’ luminosity images.
 
 ‘Clean’ luminosity images sounds simple in practice. It’s essentially luminosity data that’s free from sources of noise. But in reality, this is incredibly hard to do.
 
