@@ -210,7 +210,7 @@ ggplot() +
 
 ```
 
-More on `geom_spatraster` (here)[https://dieghernan.github.io/tidyterra/reference/geom_spatraster.html].
+More on `geom_spatraster` [here](https://dieghernan.github.io/tidyterra/reference/geom_spatraster.html).
 
 ## Extracting
 
